@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sentinel-proxy"
+version = "0.1.0"
+description = "LLM/MCP 트래픽만 잡는 mTLS 지원 mitmproxy 애드온 라이브러리"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "BoB Sentinel Solution", email = "you@example.com" }]
+dependencies = [
+  "mitmproxy>=10.3",
+  "httpx>=0.27"
+]
+
+[project.urls]
+Homepage = "https://github.com/BoB-Sentinel-Solution/Sentinel_Proxy"
+Issues   = "https://github.com/BoB-Sentinel-Solution/Sentinel_Proxy/issues"
